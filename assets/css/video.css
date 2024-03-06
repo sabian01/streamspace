@@ -1,0 +1,76 @@
+.video-template {
+  max-width: 500px;
+}
+
+.cover {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.title{ 
+  font-weight:500;
+  margin-top: 0;
+ 
+}
+
+.author, .stats {
+  color: grey;
+  font-size: 14px;
+}
+
+
+
+
+.info-container{ 
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+
+
+
+.profile-pic{ 
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+
+
+/* Small Devices (Mobile Phones) */
+@media only screen and (max-width: 767px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+  
+}
+
+/* Medium Devices (Tablets) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr ;
+  }
+}
+
+/* Large Devices (Laptops/Desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Extra Large Devices (Large Desktops) */
+@media only screen and (min-width: 1200px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+

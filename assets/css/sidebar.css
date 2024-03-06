@@ -1,0 +1,38 @@
+.sidebar {
+
+  position: fixed;
+  left: 0;
+  top: 60px;
+  bottom: 0;
+  width: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.sidebar-option {
+  background-color: rgb(255, 255, 255);
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-option:hover {
+  box-shadow: inset 0px 0px 20px rgba(23, 201, 255, 0.7);
+}
+
+
+.option-icon {
+  width: 30px;
+}
+
+.option-title {
+ margin-top: 2px;
+ margin-bottom: 0px;
+ font-size: 12px;
+}
