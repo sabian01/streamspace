@@ -1,0 +1,96 @@
+.header {
+  display: flex;
+  height: 60px;
+  background-color: whitesmoke;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.left-side {
+  display: flex;
+  width: 200px;
+  align-items: center;
+}
+.streamspace-logo {
+  height: 1.875rem;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.streamspace-text {
+  height: 0.875rem;
+}
+
+.center {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchbox {
+  display: flex;
+  max-width: 540px;
+  flex: 1;
+  height: 20px;
+  font-size: medium;
+  border: 1px solid gray;
+  padding: 3px 7px;
+  background-color: white;
+  border-radius: 7px;
+}
+.search-input{
+  border: none;
+  flex: 1;
+ 
+}
+.search-input:focus {
+  outline: none;
+}
+
+
+.right-side {
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.straight-line {
+  background-color: rgb(0, 0, 0);
+  height: 2rem;
+  width: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.log-button {
+  background-color: white;
+  border: 1px solid #28c3a4;
+  border-radius: 1rem;
+  padding: 7px 10px;
+
+}
+
+
+.profile-icon {
+  height: 18px;
+}
+
+
+@media (max-width: 576px) {
+  .right-side {
+    display: none;
+  }
+
+  .searchbox {
+    max-width: 200px;
+  }
+
+
+ }
+ 
